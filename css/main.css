@@ -30,9 +30,15 @@ body {
     position: relative;
     color:white;    
 }
+.top-middle>a {
+    color: white;
+}
 .top-right {
     display: inline-block;
     position: relative;
+}
+.top-right>a {
+    color: white;
 }
 .bottom-links {
     display: inline-block;
