@@ -35,18 +35,18 @@ body {
     color:white; 
        
 }
-.top-middle>a {
+.top-middle > a {
     color: white;
 }
 .top-right {
     display: inline-block;
     position: relative;
     margin-right: 30px;
-    
+     
 }
-.top-right>a {
+.top-right > a {
     color: white;
-    text-transform: capitalize;
+    
    
 }
 .bottom-links {
