@@ -14,6 +14,7 @@ body {
     justify-content: space-between;
     text-transform: capitalize;
     font-family: sans-serif;
+    font-size: 10px;
     color: white;
     margin-top: 20px;
     margin-left: 30px;
@@ -28,7 +29,8 @@ body {
 .top-middle {
     display: inline-block;
     position: relative;
-    color:white;    
+    color:white; 
+       
 }
 .top-middle>a {
     color: white;
@@ -53,18 +55,19 @@ body {
 .left-column {
     display: inline-block;
     float: left;
-    /* background-color:#FE3964; */
     width: 340px;
+    height: 300px;
     margin-top: 30px;
     padding: 30px;
-}
+
+}    
 .right-column {
     display: inline-block;
     float: right;
-    /* background-color:#FE3964;  */
     margin-top: 30px;
     width: 400px;
     background-repeat: no-repeat;
     background-position: center; 
-    background-size: cover;   
- }
+    background-size: cover; 
+    
+}

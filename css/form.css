@@ -29,6 +29,51 @@
   }
   .main-img {
       border: pink;
-      border-radius: ;
+      position: relative;
+      margin-left: 50px;
+  }
+  .button {
+    float: left;
+    background-color: #FDFEFE;
+    color: #FE3C61;
+    border-radius: 12px;
+    border: none;
+    padding: 10px 30px;
+    font-weight: bold;
+  }
+  .h1 {
+    font-family: Kristen ITC;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .para {
+    font-family: Kristen ITC;
+    font-size: 10px;
+    color: #fff;
+    padding-bottom: 30px;
+  }
+  .top-middle > a {
+    padding: 0 20px;
+    border: none;
+  }
+  .top-right > a {
+    padding: 0 20px;
+    border: none;
+  }
+  .button1 {
+    float: right;
+    background-color: #FDFEFE;
+    color: #FE3C61;
+    border-radius: 12px;
+    border: none;
+    padding: 5px 10px;
+    font-size: 10px;
+    
+  }
+  .background {
+    background-image: url(../img/burbulai.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
   }
   
