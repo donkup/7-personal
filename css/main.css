@@ -3,10 +3,11 @@ body {
 }
 .conteiner {
     display: inline-block;
-    width: 800px;
+    width: 1000px;
+    height: 450px;
     position: absolute;
     background-color: #FE3964;
-    margin: 100px calc((100% - 800px) / 2);
+    margin: 100px calc((100% - 1000px) / 2);
     border-radius: 25px;
 }
 .top-links {
@@ -14,7 +15,7 @@ body {
     justify-content: space-between;
     text-transform: capitalize;
     font-family: sans-serif;
-    font-size: 10px;
+    font-size: 15px;
     color: white;
     margin-top: 20px;
     margin-left: 30px;
