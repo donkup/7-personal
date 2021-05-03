@@ -4,10 +4,10 @@ body {
 .conteiner {
     display: inline-block;
     width: 1000px;
-    height: 450px;
+    height: 500px;
     position: absolute;
     background-color: #FE3964;
-    margin: 100px calc((100% - 1000px) / 2);
+    margin: 50px calc((100% - 1000px) / 2);
     border-radius: 25px;
 }
 .top-links {
@@ -42,9 +42,12 @@ body {
     display: inline-block;
     position: relative;
     margin-right: 30px;
+    
 }
 .top-right>a {
     color: white;
+    text-transform: capitalize;
+   
 }
 .bottom-links {
     display: inline-block;
@@ -59,11 +62,12 @@ body {
 }
 .left-column {
     display: inline-block;
-    float: left;
+    /* float: left; */
+    position: relative;
     width: 340px;
     height: 300px;
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 60px;
     padding: 30px;
 
 }    

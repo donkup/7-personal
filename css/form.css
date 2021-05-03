@@ -44,7 +44,7 @@
   .h1 {
     font-family: Kristen ITC;
     font-weight: bold;
-    text-transform: uppercase;
+    text-transform:
     color: #fff;
   }
   .para {
@@ -56,11 +56,23 @@
   .top-middle > a {
     padding: 0 20px;
     border: none;
+    text-transform: capitalize;
+    text-decoration: none;
+  }
+  .top-middle > a:hover {
+    text-decoration: underline;
     
   }
   .top-right > a {
     padding: 0 20px;
     border: none;
+    text-transform: capitalize;
+    text-decoration: none;
+    
+  }
+  .top-right > a:hover {
+    text-decoration: underline;
+    
   }
   .button1 {
     float: right;
@@ -70,13 +82,17 @@
     border: none;
     padding: 5px 15px;
     font-size: 15px;
-    
+  }
+  .button1:hover {
+    cursor: pointer;
+  }
+  .button:hover {
+    cursor: pointer;
   }
   .background {
     background-image: url(../img/burbulas.png);
     background-repeat: no-repeat;
     background-position:center;
-    height:inherit;
     filter:opacity(30%);
     
   }
