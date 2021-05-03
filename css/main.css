@@ -38,6 +38,7 @@ body {
 .top-right {
     display: inline-block;
     position: relative;
+    margin-right: 30px;
 }
 .top-right>a {
     color: white;
@@ -49,7 +50,8 @@ body {
     text-align: center;
     bottom: 0;
     right: 0;
-    right: 30px;
+    right: 50px;
+    
    
 }
 .left-column {
