@@ -76,6 +76,6 @@
     background-repeat: no-repeat;
     background-position:center;
     height:100vh;
-    filter:blur(20px)
+    filter:opacity()
   }
   
